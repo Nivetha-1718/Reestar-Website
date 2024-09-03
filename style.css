@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Gabarito', sans-serif;
+}
+.navbar{
+    background-color:  black ;
+    color: white;
+    width: 100%;
+}
+
+.card{
+    padding: 0px;
+    width: 200px;
+    border: solid black ;
+    overflow: hidden;
+ display: inline-block;
+    margin-top:20px;
+
+}
+.card__button{
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 25px;    
+}
+.card__title{
+  background-color: white;
+  color: black;
+}
+.card__desc{
+    background-color: white;
+    color: black;
+}
+.card__img{
+    width:  200px;
+    height: 200px;   
+}
+.card__container
+{
+    padding: 0px;
+    width: 100;
+    overflow: hidden;
+    box-sizing: 0px 2px rgba(0,0,0,0,2);
+    margin: 30px;
+}
+.navbar h1:hover{
+    transform: scale(1.05);
+    color: yellowgreen;
+}
+
+.navbar p{
+    color: white;
+}
+.navbar p:hover{
+    transform: scale(1.05);
+    color: yellowgreen;
+}
+.card__button:hover{
+    transform: scale(1.05);
+    background-color: rebeccapurple;
+}
+
+.container{
+    background-color: black;
+    color:white;
+    justify-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.section-one{
+ display: block; 
+}
+
+.container__01 p{
+    background-color: yellowgreen ;
+    color: #000;
+    font-size: 30px;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.container__01 p:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
+.section-two table{
+ text-align: center;
+ margin: auto;
+}
